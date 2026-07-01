@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6s0056/v1
+canonical_location: https://kanripo.org/bkk/KR6s0056/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 進旨
+  identifiers:
+    alt_id:
+    - T85n2864
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2864.xml
+    old_id: T85n2864
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6s0056_000.yaml, hash: 'sha256:7af77f23532402f924b4ade2f318abb90792e374f81485492898497fed176eef'}
+  - {seq: 1, filename: KR6s0056_001.yaml, hash: 'sha256:7cb903df69163d6e012bccc826ec68fd5fd208b7f42624d832939fce56d33a57'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6s0056_001.markers.yaml, hash: 'sha256:5799794df73f43e83f8b47648b9a27a65cce0799341cdb78cb91109b8d72a679'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6s0056_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 400
+  label: 進旨
+  type: juan
+  level: 1
+hash: sha256:2dab5e77c4d93a6bdce48e33d664ff75d48ec169207fd916f191bcbe0f12d3b7
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
